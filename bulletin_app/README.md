@@ -11,7 +11,9 @@ Application Flutter multiplateforme pour la saisie, la gestion et l'impression d
 - Paramètres configurables : préfixe, compteur, carreau, devise, langue, pied de page.
 
 ## Structure
+
 ```
+
 lib/
  ├─ data/
  │   ├─ models/                # Modèles métier (Client, Fournisseur, Facture, LigneAchat, ParametresApp)
@@ -26,15 +28,18 @@ lib/
 ```
 
 ## Pré-requis
+
 - Flutter 3.x
 - Dart 3.x
 
 ## Installation
+
 ```bash
 flutter pub get
 ```
 
 ## Lancer l'application
+
 ```bash
 flutter run -d chrome        # Web
 flutter run -d windows       # Desktop Windows
